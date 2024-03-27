@@ -30,9 +30,12 @@ func main() {
 
 	createBook(db)
 
-	book := newBook{"LOTR", "JJK", "Fantasy"}
-	pk := insertBook(db, book)
+	var i, j, k string
+	fmt.Print("Lägg till en bok, ange titel, författare och genre\n")
+	fmt.Scan(&i, &j, &k)
 
+	book := newBook{i, j, k}
+	pk := insertBook(db, book)
 	fmt.Printf("ID = %d\n", pk)
 }
 
@@ -60,4 +63,8 @@ func insertBook(db *sql.DB, book newBook) int {
 		log.Fatal(err)
 	}
 	return pk
+}
+
+func deleteBook(db *sql.DB) {
+
 }
