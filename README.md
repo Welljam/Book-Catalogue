@@ -26,7 +26,7 @@ Du kan lägga till, ta bort, redigera och visa alla böcker i katalogen.
 Denna Go-applikation är en enkel bokkatalogapplikation som låter användare interagera med en databas av böcker. 
 Applikationen är baserad på de grundläggande principerna för CRUD-operationer (Create, Read, Update, Delete). 
 Användare kan lägga till nya böcker, ta bort befintliga böcker, redigera bokinformation och visa alla tillgängliga böcker i katalogen.
-Alla ändringar användarna gör kommer att återspeglas i databasen.
+Alla ändringar användarna gör kommer att återspeglas i databasen. Programmet är skrivit med programspråket Go och använder sig av databasen PostgreSQL.
 
-## Ungefärlig Tidsåtgång
+## Tidsåtgång
 Projektet tog ungefär 5 dagar att genomföra. Eftersom jag inte hade någon tidigare erfarenhet med Go eller PostgreSQL var det särskilt tidskrävande att lära mig verktygen.
