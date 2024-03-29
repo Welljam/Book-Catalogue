@@ -22,7 +22,7 @@ Kompilera och kör Go-applikationen genom att köra följande kommando från ter
 Följ anvisningarna på terminalen för att interagera med applikationen.
 Du kan lägga till, ta bort, redigera och visa alla böcker i katalogen.
 
-## Kort Beskrivning
+## Beskrivning
 Denna Go-applikation är en enkel bokkatalogapplikation som låter användare interagera med en databas av böcker. 
 Applikationen är baserad på de grundläggande principerna för CRUD-operationer (Create, Read, Update, Delete). 
 Användare kan lägga till nya böcker, ta bort befintliga böcker, redigera bokinformation och visa alla tillgängliga böcker i katalogen.
